@@ -1,0 +1,195 @@
+2024-11-12T17:51:27+07:00 CRITICAL syntax error, unexpected identifier "link" in /var/www/html/wp-content/themes/botiga/functions.php on line 676
+
+2024-11-14T22:26:53+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-14T22:26:53+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T00:16:51+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T02:03:46+07:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 327680 bytes) in /var/www/html/wp-includes/l10n/class-wp-translation-file-php.php on line 32
+
+2024-11-15T02:03:51+07:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 327680 bytes) in /var/www/html/wp-includes/l10n/class-wp-translation-file-php.php on line 32
+
+2024-11-15T02:04:02+07:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 327680 bytes) in /var/www/html/wp-includes/l10n/class-wp-translation-file-php.php on line 32
+
+2024-11-15T13:44:55+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T13:45:15+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T14:55:10+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T21:34:42+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T21:34:43+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T21:34:46+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T21:34:48+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+
+2024-11-15T21:35:25+07:00 CRITICAL Uncaught Error: Call to a member function get_column_count() on null in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php:260
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): Automattic\WooCommerce\Packages::display_notice_for_merged_plugins()
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(1491): do_action()
+#4 /var/www/html/wp-admin/includes/class-wp-plugins-list-table.php(711): WP_Plugins_List_Table->single_row()
+#5 /var/www/html/wp-admin/includes/class-wp-list-table.php(1712): WP_Plugins_List_Table->display_rows()
+#6 /var/www/html/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#7 /var/www/html/wp-admin/includes/ajax-actions.php(4834): WP_List_Table->display()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): wp_ajax_search_plugins()
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/src/Packages.php on line 260
+

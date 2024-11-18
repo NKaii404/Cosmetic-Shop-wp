@@ -1,0 +1,21 @@
+2024-11-13T14:50:35+00:00 ERROR Error getting data feed
+2024-11-13T14:50:35+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 18: transfer closed with outstanding read data remaining
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)

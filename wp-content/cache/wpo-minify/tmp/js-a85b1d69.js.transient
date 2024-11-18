@@ -1,0 +1,1 @@
+{"request":{"hurl":"https:\/\/34.126.151.59\/wp-content\/plugins\/merchant\/assets\/js\/merchant.min.js","inline":"","enable_minification":false,"type":"js","handle":"merchant","version":"1.10.4"},"log":{"url":"\/wp-content\/plugins\/merchant\/assets\/js\/merchant.min.js","success":true},"code":"\"use strict\";var merchant=merchant||{};merchant.modules={};\n","status":true}
